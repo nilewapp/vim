@@ -9,6 +9,7 @@ plugins="
   https://github.com/wincent/Command-T.git
   https://github.com/terryma/vim-multiple-cursors.git
   https://github.com/valloric/YouCompleteMe.git
+  https://github.com/tpope/vim-commentary.git
 "
 
 bundle_dir="$HOME/.vim/bundle"
