@@ -39,6 +39,11 @@ git submodule update --init --recursive
 cd "$bundle_dir/cscope.vim"
 git apply "$install_script_dir/cscope.vim.patch" || true
 
+# Install Command-T
+cd "$bundle_dir/Command-T/ruby/command-t"
+ruby extconf.rb
+make
+
 function install_file() {
   source_file="$1"
   target_file="$2"
