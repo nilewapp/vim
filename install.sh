@@ -28,6 +28,7 @@ for p in $plugins; do
     git clone "$p"
   else
     cd "$dir_name"
+    git checkout -- .
     git pull
   fi
 done
