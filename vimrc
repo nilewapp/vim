@@ -69,6 +69,13 @@ nnoremap <leader>fs :call cscope#find('s', expand('<cword>'))<cr>
 nnoremap <leader>fg :call cscope#find('g', expand('<cword>'))<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Ultisnips
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:UltiSnipsExpandTrigger = "<C-t>"
+let g:UltiSnipsJumpForwardTrigger = "<C-b>"
+let g:UltiSnipsJumpBackwardTrigger = "<C-z>"
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Windows
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nmap <leader><tab> <C-w><C-w>

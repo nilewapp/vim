@@ -5,12 +5,15 @@ set -e
 install_script_dir=$(dirname $(readlink -f "$0"))
 
 plugins="
+  https://github.com/honza/vim-snippets.git
+  https://github.com/idanarye/vim-dutyl.git
+  https://github.com/sirver/UltiSnips.git
+  https://github.com/terryma/vim-multiple-cursors.git
+  https://github.com/tpope/vim-commentary.git
+  https://github.com/tpope/vim-surround.git
+  https://github.com/valloric/YouCompleteMe.git
   https://github.com/vim-scripts/cscope.vim.git
   https://github.com/wincent/Command-T.git
-  https://github.com/terryma/vim-multiple-cursors.git
-  https://github.com/valloric/YouCompleteMe.git
-  https://github.com/tpope/vim-commentary.git
-  https://github.com/idanarye/vim-dutyl.git
 "
 
 bundle_dir="$HOME/.vim/bundle"
