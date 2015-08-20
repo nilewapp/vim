@@ -94,29 +94,6 @@ set si   " Smart indent
 set wrap " Wrap lines
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Autocompletion
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-inoremap {      {}<left>
-inoremap {<cr>  {<cr>}<esc>O
-inoremap {<tab> {
-inoremap {}     {}
-
-inoremap [      []<Left>
-inoremap [<cr>  [<cr>]<esc>O
-inoremap [<tab> [
-inoremap []     []
-
-inoremap (      ()<Left>
-inoremap (<cr>  (<cr>)<esc>O
-inoremap (<tab> (
-inoremap ()     ()
-
-inoremap "      ""<left>
-inoremap "<tab> "
-inoremap '      ''<left>
-inoremap '<tab> '
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Moving around, tab and buffers
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nmap tn :tabnew

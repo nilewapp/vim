@@ -5,6 +5,7 @@ set -e
 install_script_dir=$(dirname $(readlink -f "$0"))
 
 plugins="
+  https://github.com/Raimondi/delimitMate.git
   https://github.com/honza/vim-snippets.git
   https://github.com/idanarye/vim-dutyl.git
   https://github.com/sirver/UltiSnips.git
