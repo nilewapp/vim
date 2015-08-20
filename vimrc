@@ -54,7 +54,6 @@ set wildignore+=*.o,*.png,*.svg
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " YCM
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:ycm_collect_identifiers_from_tags_files = 1
 let g:ycm_extra_conf_globlist = ['~/project/*']
 map <F2> :YcmCompleter GoToDefinition<cr>
 map <F3> :YcmCompleter GoToDeclaration<cr>
