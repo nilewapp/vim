@@ -40,7 +40,7 @@ done
 # Install YouCompleteMe
 cd "$bundle_dir/YouCompleteMe"
 git submodule update --init --recursive
-./install.sh --clang-completer
+./install.py --clang-completer
 
 # Install Cscope
 cd "$bundle_dir/cscope.vim"
